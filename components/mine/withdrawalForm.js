@@ -118,16 +118,16 @@ export default function withdrawalForm() {
                                 enterKeyHint="done" />
 
                         </span>
-                        <small>Min: 0.01 - Max: {max}</small>
+                        <small style={{ fontSize: 14 }}>Fee: 0.01, to account {max}</small>
                     </div>
                     <div>
                         <label></label>
-                        <input
+                        <textarea
                             placeholder={t("address-start-with-t")}
                             type="text"
                             name="address"
                             autoComplete="off"
-                            enterKeyHint="done" />
+                            enterKeyHint="done"  ></textarea>
                     </div>
                     <div>
                         <label></label>
@@ -147,14 +147,15 @@ export default function withdrawalForm() {
 .BasicAccountBalance{padding: 30px 30px  0 30px; text-align: center;}
 .BasicAccountBalance *{margin: 0;}
 .BasicAccountBalance h1{font-size: 44px; color:var(--text-color);font-weight:700;margin:0;padding:0;} 
-.BasicAccountBalance h3{font-size: 14px;margin-bottom:  5px;font-weight: normal;color:var(--text-white);}
+.BasicAccountBalance h3{font-size: 14px;margin-bottom:  5px;font-weight: normal;color:var(--white);}
 .BasicAccountBalance h4{font-size: 14px;margin-bottom: 5px;font-weight: normal;color:var(--text-color);}
-.BasicAccountBalance p{padding:0;margin:0;color:var(--text-white);font-size:14px;}
+.BasicAccountBalance p{padding:0;margin:0;color:var(--white);font-size:14px;}
 .BasicAccountBalance p span{ color:var(--text-color);}
 .maxBox{position:relative;display:block;}
 form small{font-size:12px;color:var(--text-color);font-weight:bold;}
 form>div{padding:0;}
 form>div:last-child{padding-top:15px;}
+form input{background-color:rgba(0,0,0,.1);}
 .maxBox .btn{border-radius:5px;position:absolute;right:7px;top:7px;padding:11px 10px;font-size:12px;z-index:999999;}
 .withdrawalButtons{display:flex; justify-content:space-between;width:100%;}
 .withdrawalButtons span{border:solid 1px rgba(255 255 255 / 20%); background-color:var(--bg-card-color);cursor:pointer;text-align:center;display:inline-block; color:var(--text-white);padding: 10px  15px; font-size: 14px;border-radius: var(--radius);}

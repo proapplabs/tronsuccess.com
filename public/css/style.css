@@ -8,7 +8,7 @@
      --text-color: #e3b59e;
      --text-dark: #855e4f;
      --radius: 10px;
-     --border-color: #e3b59e;
+     --border-color: hsla(0, 0%, 100%, .1);
      --marquee-text: #ffffff99;
 
      --button-menu-text: var(--text-color);
