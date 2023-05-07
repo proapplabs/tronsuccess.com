@@ -160,7 +160,7 @@ form input{background-color:rgba(0,0,0,.1);border-color:hsla(0, 0%, 100%, .1);}
 form textarea{ border-color:hsla(0, 0%, 100%, .1);}
 .maxBox .btn{border-radius:5px;position:absolute;right:7px;top:7px;padding:11px 10px;font-size:12px;z-index:999999;}
 .withdrawalButtons{display:flex; justify-content:space-between;width:100%;}
-.withdrawalButtons span{border:solid 1px rgba(255 255 255 / 20%); background-color:hsla(0,0%,100%,.1);cursor:pointer;text-align:center;display:inline-block; color:var(--text-white);padding: 10px  15px; font-size: 14px;border-radius: var(--radius);}
+.withdrawalButtons span{border:solid 1px rgba(255 255 255 / 20%); background-color:hsla(0,0%,100%,.1);cursor:pointer;text-align:center;display:inline-block; color:var(--white);padding: 10px  15px; font-size: 15px;border-radius: var(--radius);}
 .withdrawalButtons span.active{color:var(--text-color);border-color:var(--border-color);}
 @media (max-width:960px) {  
     .withdrawalButtons span { font-size: 12px;} 
