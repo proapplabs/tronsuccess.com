@@ -152,16 +152,17 @@ export default function withdrawalForm() {
 .BasicAccountBalance p{padding:0;margin:0;color:var(--white);font-size:14px;}
 .BasicAccountBalance p span{ color:var(--text-color);}
 .maxBox{position:relative;display:block;}
+form{margin:30px -30px 0 -30px;padding:30px;}
 form small{font-size:12px;color:var(--text-color);font-weight:bold;}
 form>div{padding:0;}
 form>div:last-child{padding-top:15px;}
-form input{background-color:rgba(0,0,0,.1);}
+form input{background-color:rgba(0,0,0,.1);border-color:hsla(0, 0%, 100%, .1);}
+form textarea{ border-color:hsla(0, 0%, 100%, .1);}
 .maxBox .btn{border-radius:5px;position:absolute;right:7px;top:7px;padding:11px 10px;font-size:12px;z-index:999999;}
 .withdrawalButtons{display:flex; justify-content:space-between;width:100%;}
-.withdrawalButtons span{border:solid 1px rgba(255 255 255 / 20%); background-color:var(--bg-card-color);cursor:pointer;text-align:center;display:inline-block; color:var(--text-white);padding: 10px  15px; font-size: 14px;border-radius: var(--radius);}
+.withdrawalButtons span{border:solid 1px rgba(255 255 255 / 20%); background-color:hsla(0,0%,100%,.1);cursor:pointer;text-align:center;display:inline-block; color:var(--text-white);padding: 10px  15px; font-size: 14px;border-radius: var(--radius);}
 .withdrawalButtons span.active{color:var(--text-color);border-color:var(--border-color);}
-@media (max-width:960px) { 
-    // .withdrawalButtons{padding:15px;margin:0 -15px;border-radius:0;}
+@media (max-width:960px) {  
     .withdrawalButtons span { font-size: 12px;} 
     .BasicAccountBalance{padding:15px 0 0 0;font-size:14px;}
     .BasicAccountBalance *{margin:0;padding:0;}
