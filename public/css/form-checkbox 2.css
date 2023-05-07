@@ -1,0 +1,40 @@
+/* Check Box */
+.checkbox {
+    position: relative;
+    padding: 7px 0 30px 0;
+}
+
+.checkbox label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.checkbox input[type="checkbox"],
+.radio input[type="radio"] {
+    display: none;
+}
+
+.checkbox .fa,
+.radio .fa {
+    width: 1em;
+    font-size: 25px;
+}
+
+.checkbox input[type="checkbox"]+i:before,
+.radio input[type="radio"]+i:before {
+    content: "\f096";
+    position: relative;
+    bottom: -4px;
+    margin-right: 5px;
+    color: white;
+}
+
+.checkbox input[type="checkbox"]:checked+i:before,
+.radio input[type="radio"]:checked+i:before {
+    content: "\f046";
+    color: white;
+}

@@ -1,0 +1,21 @@
+{
+    "locales": [
+        "en",
+        "pt",
+        "id",
+        "ko",
+        "de",
+        "ja",
+        "fr",
+        "ar",
+        "tr",
+        "es"
+    ],
+    "defaultLocale": "en",
+    "pages": {
+        "*": [
+            "common"
+        ]
+    },
+    "localeDetection": false
+}
