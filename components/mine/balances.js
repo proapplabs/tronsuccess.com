@@ -27,10 +27,10 @@ export default function Balances({ page = "profile" }) {
 
                 <style jsx>{` 
 .info{margin-bottom:30px;background:var(--balance-bg) !important;}
-.info>div{padding:0;width:100%;} 
-.quantity *{margin:0;color:var(--text-white);}
-.quantity p{font-size:12px;}
-.quantity .price{font-size:16px;color:var(--text-color);margin:5px 0;} 
+.info>div{padding:5px;width:100%;} 
+.quantity *{margin:0;color:var(--white);}
+.quantity p{font-size:14px;}
+.quantity .price{font-size:16px;color:var(--text-color);margin:10px 0;} 
 @media (max-width:960px) {
 .info .price{font-size:15px ;}
 .info p{font-size:12px ;}
