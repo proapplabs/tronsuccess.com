@@ -69,7 +69,7 @@ export default function NavigationBottom() {
     .navigationBottom { position: fixed; bottom: 0;left:0;right:0;z-index: 99999999;}
     .navigationBottom:hover a { transform: scale(1); /*filter:blur(1px);*/ }
     .navigationBottom .links{background-color: var(--bg-card-color); border-radius: var(--radius) var(--radius) 0 0; display: flex; backdrop-filter: blur(15px);width:100%;  }
-    .navigationBottom a{ display: block; width: 100%; padding: 30px 15px; text-align: center; transition: ease all 0.5s;font-size:20px; font-weight:bold; }
+    .navigationBottom a{ display: block; width: 100%; padding: 30px 15px; text-align: center; transition: ease all 0.5s;font-size:20px; font-weight:bold;color:#85a6bb; }
  
     .navigationBottom a img { display: block; margin: auto auto 10px auto; max-width: 50%;}
     .navigationBottom a span { display: block;}

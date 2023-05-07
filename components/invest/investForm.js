@@ -113,7 +113,7 @@ export default function InvestForm() {
                     </h1>
                 </div>
                 <div className="qrText">
-                    <p>
+                    <p className='t1'>
                         {action == 'basic' ? (
                             t("transfer-to-basic-account")
                         ) : (
@@ -151,15 +151,16 @@ export default function InvestForm() {
                 </form>
                 <style jsx>{`  
                 .pageTitle{text-align:left}
-                .pageTitle h1{margin-left:45px !important;}
+                .pageTitle h1{margin-left:45px !important; }
                 .qrText{text-align:center;margin-top:-70px;}
                 .text-color{color:var(--text-color)}
                 .qrText .color{color:var(--text-color);margin-top:10px;}
-   .investForm form{margin:15px 0;}
-   .investForm input{padding:7px ; border-color:var(--text-color) !important;}
+   .investForm form{margin:15px -30px;padding:  30px;}
+   .investForm input{padding:10px ; border-color:  hsla(0,0%,100%,.2) !important;background-color:rgba(0,0,0,.1);}
    .investForm .qr{width:140px;margin:auto;display:block; }
    .investForm .buttons{display:flex;gap:15px;} 
-   .investForm p{font-size:14px;}
+   .investForm p.t1{font-size:14px;color:white;font-weight:bold;}
+   .investForm p{font-size:14px; padding:5px 15px}
    .clipboard{position:relative;}
    .clipboard textarea{padding-right:40%;height:93px;}
    .clipboard span{position:absolute;right:0;bottom:0;border-radius:5px;cursor:pointer;}
