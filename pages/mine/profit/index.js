@@ -16,7 +16,7 @@ export default function Mine() {
                 <Link href="/mine" ><a className='back'><i className='fa fa-chevron-left'></i></a></Link>
                 <h1>{t("profit-list")}</h1>
             </div>
-            {/* <FilterItems /> */}
+            <FilterItems />
             <BalancesCard />
             <ProfilItems />
         </Layout>

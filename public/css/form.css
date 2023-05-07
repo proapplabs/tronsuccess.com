@@ -326,3 +326,18 @@ input[type=number] {
     left: 0;
     right: 0;
 }
+
+.page_auth.login form input,
+.page_auth.login form textarea {
+    background-color: rgba(0 0 0 / 0%) !important;
+    border: 1px solid hsla(0, 0%, 100%, .2) !important;
+}
+
+.page_auth.register form input,
+.page_auth.register form textarea {
+    background-color: rgba(0 0 0 / 0%) !important;
+    border-radius: 0;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2) !important;
+    padding: 15px 0;
+    ;
+}
