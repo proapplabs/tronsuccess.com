@@ -47,7 +47,7 @@ export default function ShareCard() {
 .shareCard .qrBox:after{content:' ';display:block;z-index:-1;position:absolute;bottom:0;left:0;right:0;top:0;background-image: url(/img/bg/share.png);background-position: bottom center;background-size: 100% 240px;background-repeat: no-repeat;}
 .shareCard .qrBox img { position:relative;z-index:999;display: block; border:solid 10px var(--text-color);max-width: 160px; border-radius: var(--radius); margin: auto; }
 .shareCard { text-align: center; padding: 30px 0;position:relative;z-index:9999999; }
-.shareCard h1 { margin: 0 0 0 0; font-size: 20px; color: var(--text-white); font-weight: 500; }
+.shareCard h1 { margin: 0 0 0 0; font-size: 20px; color: var(--text-color); font-weight: 600; }
 .shareCard p { margin: 7px 0 30px 0; font-size: 15px; }
 .shareCard .copyBox {position:relative;z-index:999;width:370px; display:flex;margin: -40px auto auto auto; border: var(--border-color) solid 1px; border-radius: var(--radius); background-color: var(--bg-card-color); transition: ease all 0.5s; }
 .shareCard .copyBox span {color:var(--text-white);font-size:11px;  max-width:67%;padding:15px;border-radius:var(--radius);word-wrap: break-word; display: inline-block; text-align:left !important; }
