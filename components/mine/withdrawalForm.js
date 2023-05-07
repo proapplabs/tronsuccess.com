@@ -118,7 +118,7 @@ export default function withdrawalForm() {
                                 enterKeyHint="done" />
 
                         </span>
-                        <small style={{ fontSize: 14 }}>Fee: 0.01, to account {max}</small>
+                        <small style={{ fontSize: 14 }}>Fee: 0.01, to account {priceTrx(max).replace("TRX", "")}</small>
                     </div>
                     <div>
                         <label></label>
