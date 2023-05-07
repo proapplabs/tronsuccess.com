@@ -45,8 +45,8 @@ export default function Accounts() {
 .accounts:nth-child(2) { margin-bottom: 1px !important; }
 .accounts:after { transform:scale(0.6);content: " "; display: block; position: absolute; right: 15px; top: 0; bottom: 0; margin: auto; background-size:contain;background-image: url(img/icon/arrow-right.png); width: 12px; height: 24px; background-repeat: no-repeat; }
 .accounts img { margin: 15px 30px; width: 50px; transition: ease all 0.5s; }
-.accounts div h6 { font-size: 13px;margin-bottom: 5px;color:var(--text-white); }
-.accounts div h6 span { display: inline-block; margin-left: 5px; font-size: 12px; font-weight: normal; }
+.accounts div h6 { font-size: 13px;margin-bottom: 5px;color:var(--white); }
+.accounts div h6 span { display: inline-block; margin-left: 5px; font-size: 12px; font-weight: normal; color:#ffffff99;}
 .accounts div p { color: var(--text-color); font-weight: bold; font-size: 15px; }
 .accounts div p span { color: var(--text-white); font-size: 12px; font-weight: normal; }
 
