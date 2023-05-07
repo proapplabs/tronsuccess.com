@@ -12,7 +12,7 @@ export default function LatestAnnouncement() {
             </a>
         </section>
         <style jsx>{`
-        .LatestAnnouncement { background:var(--bg-card-color); padding: 0; border-radius: var(--radius); margin: 30px 0; }
+        .LatestAnnouncement { background:linear-gradient(90deg,rgba(255,219,146,.08),rgba(177,136,52,.08)); padding: 0; border-radius: var(--radius); margin: 30px 0; }
 .LatestAnnouncement * { margin: 0; }
 .LatestAnnouncement a { display: flex; position: relative;align-items:center; }
 .LatestAnnouncement a img{margin-right:15px;}

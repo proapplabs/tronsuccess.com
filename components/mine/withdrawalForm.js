@@ -153,7 +153,7 @@ export default function withdrawalForm() {
 .BasicAccountBalance p span{ color:var(--text-color);}
 .maxBox{position:relative;display:block;}
 form{margin:30px -30px 0 -30px;padding:30px;}
-form small{font-size:12px;color:var(--text-color);font-weight:bold;}
+form small{font-size:12px;color:var(--text-color);font-weight:normal;}
 form>div{padding:0;}
 form>div:last-child{padding-top:15px;}
 form input{background-color:rgba(0,0,0,.1);border-color:hsla(0, 0%, 100%, .1);}

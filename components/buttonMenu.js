@@ -134,9 +134,8 @@ export default function ButtonMenu({ page = "home" }) {
 .buttonMenu .group { display: flex; flex-wrap:  wrap;  justify-content: space-between;   flex-wrap: wrap;width:100%;}
 .buttonMenu a {width:105px;text-align: center;   display: inline-block;    transition: ease all 0.5s;  background-color: var(--bg-card-color); border-radius: var(--radius); display:inline-block;padding:15px 0;margin:0 15px 30px 15px;}
 .buttonMenu a img { display: block; margin: auto auto 10px auto; width: 32px; transition: ease all 0.5s; }
-.buttonMenu a span { display: block; font-size: 13px; text-align:center;color:hsla(0,0%,100%,.6)}
- 
-.buttonMenu:after { clear: both; content: " "; display: block; }
+.buttonMenu a span { display: block; font-size: 13px;font-weight:500; text-align:center;color:var(--text-color);}  
+.buttonMenu:after { clear: both; content: " "; display: block;}
 .buttonMenu .logout{width:100%;background-color:rgba(0 0 0 / 20%);border:solid 1px rgba(255 255 255 / 10%);}  
 .buttonMenu .password{width:162px;}
 @media   (max-width:960px) {
