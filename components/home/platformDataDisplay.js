@@ -33,7 +33,7 @@ export default function PlatformDataDisplay() {
 .PlatformDataDisplay * { margin: 0; }
 .PlatformDataDisplay h6 { color: var(--text-color); font-size: 21px; font-weight: 500; letter-spacing: 1px; margin-bottom: 30px; text-align: center; }
 .PlatformDataDisplay > div {display: flex; gap: 30px; justify-content: space-between;}
-.PlatformDataDisplay > div div { display: block; width:100%;  text-align: center; padding: 30px 15px; background-color: rgba(255, 255, 255, 0.05); border-radius: var(--radius); }
+.PlatformDataDisplay > div div { display: block; width:145px;  text-align: center; padding: 30px 15px; background-color: rgba(255, 255, 255, 0.05); border-radius: var(--radius); }
 .PlatformDataDisplay > div div img { width: 55px; }
 .PlatformDataDisplay > div div h4 { font-weight: bold; }
 .PlatformDataDisplay > div div p { font-size: 12px; opacity: 0.5; }
