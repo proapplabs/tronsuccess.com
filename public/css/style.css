@@ -56,11 +56,11 @@
 
      --remember-text: var(--auth-label);
 
-     --team-counter-title-bg: var(--gradient);
-     --team-counter-title-text: var(--black);
-     --team-counter-bg: var(--bg-card-color);
+     --team-counter-title-bg: #012342;
+     --team-counter-title-text: var(--white);
+     --team-counter-bg: hsla(0, 0%, 100%, .05);
      --team-counter-total-text: var(--text-color);
-     --team-table-title-bg: var(--bg-color);
+     --team-table-title-bg: var(--bg-card-color);
      --team-table-title-text: var(--text-white);
      --team-table-row-bg: var(--bg-card-color);
      --team-table-border: rgba(0 0 0 / 7%);
