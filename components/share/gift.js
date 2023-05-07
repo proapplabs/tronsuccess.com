@@ -9,7 +9,7 @@ export default function Gift() {
                 <p>{t("gift-content")}</p>
             </div>
             <style jsx>{`
-.gift{width:370px;margin:auto;padding:15px;display:flex;align-items:center;position:relative;z-index:9999;background:var(--gradient); border-radius:var(--radius);color:var(--bg-color);}
+.gift{width:370px;margin:auto;padding:15px;display:flex;align-items:center;position:relative;z-index:9999;background:linear-gradient(270deg,rgba(255,219,146,.16),rgba(177,136,52,.16)); border-radius:var(--radius);color:var(--bg-color);}
 .gift img{height:50px;margin-right:15px;}
 .gift div *{margin:0;}
 .gift div h3{font-size:16px;font-weight:normal;}

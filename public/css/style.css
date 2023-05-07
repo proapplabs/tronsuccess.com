@@ -65,7 +65,7 @@
      --team-table-row-bg: var(--bg-card-color);
      --team-table-border: rgba(0 0 0 / 7%);
 
-     --balance-bg: rgba(0 0 0 / 15%);
+     --balance-bg: rgba(0, 0, 0, .2);
 
      --nav-bottom-bg: var(--bg-card-color);
  }
