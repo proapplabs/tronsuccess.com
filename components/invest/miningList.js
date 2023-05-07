@@ -18,13 +18,10 @@ export default function MiningList() {
 
                 {!data.items.length ? (
                     <>
-                        <div className='  info horizontal'>
+                        <div className='empty  info horizontal'>
                             <div className='body'>
-                                <h3>Information</h3>
-                                <p>We do not have a mining package product you purchased.</p>
-                                <Link href="/invest/products">
-                                    <a className='btn-color btn-small'>Buy Now</a>
-                                </Link>
+                                <img src='/img/file.png' />
+                                <p>There are currently no orders</p>
                             </div>
                         </div>
                     </>
@@ -63,7 +60,10 @@ export default function MiningList() {
  .planItems .date{display:flex;gap:15px;}
  .planItems .date div{padding:5px;width:100%;}
  .planItems .fa{font-size:14px;}
- .planItems td{padding:10px;}}
+ .planItems td{padding:10px;}
+
+ .empty{background-color:rgba(0 0 0 / 0%) !important;}
+ .empty p{color:#6f80b3;margin-top:10px !important;font-size:14px;}
 
    `}</style>
             </section>
