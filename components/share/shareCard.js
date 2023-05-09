@@ -44,6 +44,7 @@ export default function ShareCard() {
                 <style jsx>{`
 .shareCard .qrBox{position:relative;display:block;padding-bottom:180px;}
 .shareCard .qrBox:after{content:' ';display:block;z-index:-1;position:absolute;bottom:0;left:0;right:0;top:0;background-image: url(/img/bg/share.png);background-position: bottom center;background-size: 100% 240px;background-repeat: no-repeat;}
+.shareCard .qrBox:before{content:' ';display:block;z-index:-1;position:absolute;bottom:0;left:0;right:0;top:-30%;background-image: url(/img/bg/share-bg.png);background-position: top center;background-size: 50% auto;background-repeat: no-repeat;}
 .shareCard .qrBox img { position:relative;z-index:999;display: block; border:solid 10px var(--text-color);max-width: 160px; border-radius: var(--radius); margin: auto; }
 .shareCard { text-align: center; padding: 30px 0;position:relative;z-index:9999999; }
 .shareCard h1 { margin: 0 0 0 0; font-size: 20px; color: var(--text-color); font-weight: 600; }
