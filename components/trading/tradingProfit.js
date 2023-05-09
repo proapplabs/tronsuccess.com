@@ -128,21 +128,21 @@ export default function TradingProfit() {
 .tradingProfit {padding: 30px 0;position: relative;}
 .tradingProfit *{margin: 0;border:none;}
 .tradingProfit .head{position: relative;margin-bottom: 15px;display:flex; }
-.tradingProfit .head h4 {color: var(--text-color);font-size: 20px;font-weight: 700; }
+.tradingProfit .head h4 {color: var(--text-color);font-size: 14px;font-weight: 700;margin-bottom:5px; }
 .tradingProfit .head p {color: var(--text-white);font-size: 14px; }
-.tradingProfit .head a{font-size: 13px;line-height: 52px;display: inline-block; position: absolute;right: 0;top:0;}
+.tradingProfit .head a{font-size: 13px;line-height: 52px;display: inline-block; position: absolute;right: 0;top:0;color:var(--text-color);}
 .tradingProfit .head a i{display:inline-block;}
 .tradingProfit .head .stats{display:flex;width:100%;text-align:center;gap:15px;margin-top:15px;}
 .tradingProfit .head .stats div{width:100%;padding:15px;background-color:var(--bg-card-color);border-radius:var(--radius);}
 .tradingProfit ul,
 .tradingProfit ul li{list-style: none;margin: 0;padding: 0;}
 .tradingProfit ul li{transition: ease all 0.5s;background-color: var(--bg-card-color);padding: 15px;border-radius: var(--radius);display: flex;align-items:center;margin-bottom: 3px;}
- .tradingProfit ul li img{height: 44px;width: 44px;border-radius: var(--radius);}
+ .tradingProfit ul li img{height: 44px;width: 44px;}
 .tradingProfit ul li .body{margin:0 0 0 15px;position: relative;width: 100% ; display:flex;align-items:center;}
 .tradingProfit ul li .body .text {width:100%;}
-.tradingProfit ul li .body .text h6{font-size:14px;color:var(--text-color);}
-.tradingProfit ul li .body .text h6 span{font-size: 12px;color:var(--text-white);}
-.tradingProfit ul li .body .text p{font-size:9px;color: var(--text-white);opacity:0.5}
+.tradingProfit ul li .body .text h6{font-size:16px;color:var(--text-color);}
+.tradingProfit ul li .body .text h6 span{font-size: 12px;color:var(--white);}
+.tradingProfit ul li .body .text p{font-size:9px;color: var(--text-white);opacity:0.7;margin-top:14px;}
 .tradingProfit ul li .body .btn-box{ width:87px !important;}
 .tradingProfit ul li .body .btn-gradient{ filter: none;border:none;font-weight:normal;font-size:14px;}
 .tradingProfit ul li .body .btn-gradient.active{filter:grayscale(1)}
