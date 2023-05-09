@@ -160,7 +160,7 @@ export default function InvestForm() {
    .investForm .qr{width:140px;margin:auto;display:block; }
    .investForm .buttons{display:flex;gap:15px;} 
    .investForm p.t1{font-size:14px;color:white;font-weight:bold;}
-   .investForm p{font-size:14px; padding:5px 15px}
+   .investForm p{font-size:14px; padding:5px 5px}
    .clipboard{position:relative;}
    .clipboard textarea{padding-right:40%;height:93px;}
    .clipboard span{position:absolute;right:0;bottom:0;border-radius:5px;cursor:pointer;}
