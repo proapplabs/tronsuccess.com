@@ -7,7 +7,7 @@
      --text-white: #ffffff99;
      --text-color: #e3b59e;
      --text-dark: #855e4f;
-     --radius: 10px;
+     --radius: 8px;
      --border-color: #e3b59e;
      --marquee-text: #ffffff99;
 
@@ -154,9 +154,9 @@
      display: inline-block;
      background: var(--gradient);
      color: black;
-     padding: 10px 30px;
+     padding: 15px 30px;
      border-radius: var(--radius);
-     font-size: 14px;
+     font-size: 16px;
      filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.2));
  }
 
