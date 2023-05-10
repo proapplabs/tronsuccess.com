@@ -76,6 +76,7 @@ export default function NavigationTop() {
 
                 <style jsx global>{`
             .navigationTop{padding:15px 0;  }
+            .navigationTop .container{padding:  0;  }
             .navigationTop .phone{font-weight:bold;font-size:20px;line-height:30px;display:inline-block;color:var(--text-color);}
             .navigationTop:after{content: ' ';display: block;clear: both;}
             .navigationTop .logo{display: inline-block;font-size:30px;font-weight: bold;height: 21px; }
