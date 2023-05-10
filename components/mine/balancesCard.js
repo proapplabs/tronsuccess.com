@@ -30,10 +30,10 @@ export default function BalancesCard({ page = "profile" }) {
                 </section>
 
                 <style jsx>{` 
-section{display:flex;width:100%;gap:30px;}
-section>div{background:var( --balance-bg);text-align:center;width:100%;border-radius:var(--radius);padding:15px;}
-section>div p{font-size:12px;margin:0 0 7px 0;}
-section>div h3{color:var(--text-color);margin:0;font-size:15px;font-weight:700;}
+section{display:flex;width:calc(100% - 30px);gap:30px;margin:0 15px;}
+section>div{background:rgba(255 255 255 / 6%);text-align:center;width:100%;border-radius:var(--radius);padding:15px;}
+section>div p{font-size:80%;margin:0 0 7px 0;color:#6c757d;}
+section>div h3{color:var(--text-color);margin:10px 0 0 0;font-size:15px;font-weight:700;}
 @media (max-width:960px) {
  
 }
