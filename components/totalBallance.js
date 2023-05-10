@@ -64,7 +64,7 @@ export default function TotalBallance() {
 .TotalBalance {margin-top:25px;position:relative;overflow:hidden;background:var( --total-balance-bg);padding:30px 15px;text-align: center;border-radius: var(--radius);background-size:cover;  }
 .TotalBalance * {margin: 0;padding:0;}
 .TotalBalance h6 {color: var( --total-balance-text);font-size: 15px;font-weight: normal;}
-.TotalBalance p {color:var( --total-balance-text);font-size: 45px; margin-top:20px; }
+.TotalBalance p {color:var( --total-balance-text);font-size: 45px; margin-top:20px; font-weight:bold;}
 .TotalBalance span{font-size: 20px;display: inline-block;margin-right: -40px;}
 .TotalBalance.mine{padding:20px 0;}
 .TotalBalance.mine h6{color:var(--bg-color) !important;}
