@@ -32,12 +32,12 @@ export default function TeamItems() {
                                 )
                             })
                         ) : (
-                            <tr className='empty'><td colSpan={4}>{t("no-record-title")}</td></tr>
+                            <tr className='empty'><td colSpan={4}> </td></tr>
                         )}
                     </tbody>
                 </table>
                 <style jsx>{` 
-.teamItems{width:100%;margin-top:15px;border-collapse: collapse;}
+.teamItems{width:calc(100% + 30px);margin :15px -15px 0 -15px;border-collapse: collapse;}
 .teamItems .empty{text-align:center;}
 .teamItems {border-radius:var(--radius);overflow:hidden;}
 .teamItems thead tr{}
