@@ -29,14 +29,14 @@ export default function PlatformDataDisplay() {
                 </div>
             </section>
             <style jsx>{`
-        .PlatformDataDisplay { margin: 30px 0; padding: 30px; background-color: var(--bg-card-color); border-radius: var(--radius); }
+        .PlatformDataDisplay { margin: 30px 0; padding:   20px; background-color: var(--bg-card-color); border-radius: var(--radius); }
 .PlatformDataDisplay * { margin: 0; }
 .PlatformDataDisplay h6 { color: var(--text-color); font-size: 21px; font-weight: 600; letter-spacing: 1px; margin-bottom: 30px; text-align: center; }
 .PlatformDataDisplay > div {display: flex; gap: 30px; justify-content: space-between;}
 .PlatformDataDisplay > div div { display: block; width:145px;  text-align: center; padding: 30px 15px; background-color: rgba(255, 255, 255, 0.05); border-radius: var(--radius); }
 .PlatformDataDisplay > div div img { width: 55px; }
-.PlatformDataDisplay > div div h4 { font-weight: bold; }
-.PlatformDataDisplay > div div p { font-size: 12px; opacity: 0.5; }
+.PlatformDataDisplay > div div h4 { font-weight: bold;color:#92b7ff;margin-bottom:10px; }
+.PlatformDataDisplay > div div p { font-size: 12px;  color:hsla(0,0%,100%,.6); }
 .PlatformDataDisplay > div> div:first-child{background:linear-gradient(315deg,rgba(245,239,255,.1),rgba(218,241,254,.1)) !important;}
 .PlatformDataDisplay > div> div:last-child{background:linear-gradient(207deg,rgba(255,243,145,.1),rgba(255,184,0,.1))!important;}
 @media (max-width:960px) {
