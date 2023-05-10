@@ -28,7 +28,7 @@ export default function ProfilItems() {
                     {!data.items.length ? (
                         <tbody>
                             <tr>
-                                <td colSpan="5" className='tableEmpty'></td>
+                                {/* <td colSpan="5" className='tableEmpty'></td> */}
                             </tr>
                         </tbody>
                     ) : (
@@ -49,10 +49,11 @@ export default function ProfilItems() {
 .profitItems table{width:100%;border-collapse: collapse;border-radius:15px 15px 0 0;overflow:hidden;background-color:var(--bg-text);}
 .profitItems tr th{padding:10px;font-size:14px;font-weight:normal}
 .profitItems tr td{padding:15px 10px;font-size:12px;} 
-.profitItems thead tr th{background-color:var(--team-table-title-bg); color:var( --team-table-title-text); font-size:14px;padding:10px;font-weight:normal;}
+.profitItems thead tr th{background-color:var(--team-table-title-bg); color:var( --team-table-title-text); font-size:14px;padding:20px;font-weight:normal;}
 .profitItems tbody tr{ background-color: var(--bg-card-color);} 
 .profitItems tbody tr td{padding:15px;font-size:14px;border-bottom:solid 1px rgba(255 255 255 / 10%);background:var(--team-table-row-bg);}
 .profitItems tbody tr td.amount{color:var(--text-color)}
+.profitItems tbody tr td.empty{padding:5px !important;}
     `}</style>
             </section>
         )
