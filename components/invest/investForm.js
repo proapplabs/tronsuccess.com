@@ -162,7 +162,7 @@ export default function InvestForm() {
    .investForm p.t1{font-size:14px;color:white;font-weight:bold;}
    .investForm p{font-size:14px; padding:5px 5px}
    .clipboard{position:relative;}
-   .clipboard textarea{padding-right:40%;height:93px;}
+   .clipboard textarea{padding-right:40%;max-height:38px !important; min-height:38px !important;}
    .clipboard span{position:absolute;right:0;bottom:0;border-radius:5px;cursor:pointer;}
    .clipboard button{position:absolute;height:100%;right:0; width:auto;bottom:0;padding:7px 15px; font-size:12px !important;
  border-radius:0 var(--radius) var(--radius) 0

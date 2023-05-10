@@ -44,7 +44,7 @@ form button {
     cursor: pointer;
     border-radius: var(--radius);
     padding: 15px 10px;
-    min-height: 44px;
+    height: 44px;
     width: 100%;
     border: none;
     display: block;
