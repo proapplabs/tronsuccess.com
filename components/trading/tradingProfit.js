@@ -146,7 +146,7 @@ export default function TradingProfit() {
 .tradingProfit ul li .body .btn-box{ width:87px !important;}
 .tradingProfit ul li .body .btn-gradient{ filter: none;border:none;font-weight:bold;font-size:13px;}
 .tradingProfit ul li .body .btn-gradient.active{filter:grayscale(1)}
-.tradingProfit ul li .body button{border-radius:100px;padding:5px 20px;font-size:12px !important;min-height:24px;}
+.tradingProfit ul li .body button{border-radius:100px;padding:5px  ;min-width:70px;font-size:12px !important;min-height:24px;}
 .tradingProfit ul li.active a{opacity: 0.4;}
 .tradingProfit .info p{margin-bottom:15px;}
 @media (max-width:960px) {
