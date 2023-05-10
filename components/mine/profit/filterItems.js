@@ -12,10 +12,11 @@ export default function FilterItems() {
         </form>
         <style jsx>{` 
 section{}
-section form{display:flex;gap:30px;padding:0;background-color:rgba(0 0 0/0%);}
+section form{display:flex;gap:60px;padding:0;background-color:rgba(0 0 0/0%);justify-content:space-between;}
+section form input{border-color:white; max-width:210px;}
 /*section form input{background-image:url(img/icon/calendar.png);background-size:20px;background-repeat:no-repeat;background-position:center;background-color:white !important;}*/
-section form button{padding:10px;background:var(--gradient);position:relative;width:120px;}
-section form button:after{content:' ';position:absolute;top:0;bottom:0;left:0;right:0;background-image:url(/img/icon/search.png); background-size:20px;background-repeat:no-repeat;background-position:center;}
+section form button{ background:var(--gradient);position:relative;width:45px;height:32px;}
+section form button:after{width:32px;height:32px;content:' ';position:absolute;top:0;bottom:0;left:0;right:0;margin:Auto;background-image:url(/img/icon/search.png); background-size:15px;background-repeat:no-repeat;background-position:center;}
     `}</style>
     </section>)
 }
