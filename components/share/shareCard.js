@@ -50,8 +50,8 @@ export default function ShareCard() {
 .shareCard h1 { margin: 0 0 0 0; font-size: 20px; color: var(--text-color); font-weight: 600; }
 .shareCard p { margin: 7px 0 30px 0; font-size: 15px;color:white; }
 .shareCard .copyBox {position:relative;z-index:999;width:370px; display:flex;align-items:center;margin: -40px auto auto auto; border: var(--border-color) solid 1px; border-radius: var(--radius); background-color: var(--bg-card-color); transition: ease all 0.5s; }
-.shareCard .copyBox span {color:white;font-size:11px;  max-width:67%;padding:15px;border-radius:var(--radius);word-wrap: break-word; display: inline-block; text-align:left !important; }
-.shareCard .copy {margin:8px;font-size:13px; font-weight:normal;min-width:100px;background: var(--gradient); display: inline-block; border-radius: 100px; padding: 5px 15px ;  color: var(--bg-color);   transition: ease all 0.5s; }
+.shareCard .copyBox span {color:white;font-size:11px;  max-width:calc(100% - 74px);padding:15px ;border-radius:var(--radius);word-wrap: break-word; display: inline-block; text-align:left !important; }
+.shareCard .copy {margin:8px;font-size:13px; font-weight:normal;min-width:74px;background: var(--gradient); display: inline-block; border-radius: 100px; padding: 5px 0 ;  color: var(--bg-color);   transition: ease all 0.5s; }
 .shareCard .copyBox:active b { background: white; }
 @media (max-width:960px) {
   .shareCard{padding: 30px 0;}
