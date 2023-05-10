@@ -54,13 +54,13 @@ export function systemTime() {
 
 export function swrOptions(component) {
     const data = {
-        // revalidateOnFocus: true,
-        // revalidateOnMount: true,
-        // revalidateOnReconnect: true,
-        // refreshWhenOffline: false,
-        // refreshWhenHidden: false,
-        // focusThrottleInterval: 20000
-        refreshInterval: 120000
+        revalidateOnFocus: true,
+        revalidateOnMount: true,
+        revalidateOnReconnect: true,
+        refreshWhenOffline: false,
+        refreshWhenHidden: false,
+        focusThrottleInterval: 20000
+        // refreshInterval: 20000
     }
     if (component == "now") {
         // data.focusThrottleInterval = 0
