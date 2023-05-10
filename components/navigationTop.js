@@ -83,7 +83,7 @@ export default function NavigationTop() {
             .navigationTop .buttons{float:right;display: inline-block;}
             .navigationTop .buttons img{height: 21px;}
             .navigationTop .buttons .notify{position:relative;}
-            .navigationTop .buttons .notify i{background-color:#ff623b; width:6px;height:6px;position:absolute;top:0;right:-2px;}
+            .navigationTop .buttons .notify i{background-color:#ff623b; width:6px;height:6px;position:absolute;top:0;right:-2px;border-radius:100%;}
             .navigationTop .buttons>a{display: inline-block;margin-left: 10px;color:white ;}
             @media (max-width:960px) {
                 .navigationTop .logo{height: 20px;}
