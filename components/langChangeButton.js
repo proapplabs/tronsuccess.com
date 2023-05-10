@@ -49,7 +49,7 @@ export default function LangChangeButton() {
             <style jsx  >{`
             section{display:none;padding-top:30px;position:absolute;top:0; right:0;background-color:rgba(0 0 0 /  0%);z-index:99999999999;width:auto; margin:auto;} 
             section>div>div{max-height:70vh;overflowh:auto;background-color:#012342;color:var(--text-white);padding:10px;border-radius:var(--radius); position:relative; overflow:auto; }
-            section>div>div .link{cursor:pointer;min-width:200px;border-radius:var(--radius);color:var(--white);display:block;text-align:center;padding:10px;background-color:#001e3a;margin-bottom:10px;font-size:12px;min-height:32px; } 
+            section>div>div .link{cursor:pointer;min-width:180px;border-radius:var(--radius);color:var(--white);display:block;text-align:center;padding:10px;background-color:#001e3a;margin-bottom:10px;font-size:12px;min-height:32px; } 
             section>div>div .link.active{color:var(--white); }
             span{margin-left:15px;position:relative;}
             span:hover section{display:block;}  
