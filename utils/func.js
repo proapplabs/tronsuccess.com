@@ -1,15 +1,17 @@
 
 export function phoneHidden(phone) {
-    if (phone) {
-        let phoneTotal = phone.length
-        phone = phone.slice(-4)
-        for (let i = 0; i <= (phoneTotal - 4); i++) {
-            phone = '*' + phone
-        }
-        return phone
-    } else {
-        return '****'
-    }
+    let phoneTotal = phone.length
+    return `${phone.slice(0, 3)}***${phone.slice(6)}`;
+    // if (phone) {
+    //     let phoneTotal = phone.length
+    //     phone = phone.slice(-3)
+    //     for (let i = 0; i <= (phoneTotal - 3); i++) {
+    //         phone = phone + '*'
+    //     }
+    //     return phone
+    // } else {
+    //     return '**'
+    // }
 }
 
 export function systemTime() {

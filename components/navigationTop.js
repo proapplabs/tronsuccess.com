@@ -65,7 +65,6 @@ export default function NavigationTop() {
                                         <a target="_blank"><img src="/img/icon/telegram.png" alt="" /></a>
                                     </Link>
                                 ) : null}
-
                                 <LangChangeButton />
                             </div>
                         </div>

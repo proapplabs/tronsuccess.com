@@ -61,7 +61,7 @@ export default function TotalBallance() {
 .buttons a img{width:32px;}
 .buttons a span{padding-left:15px;font-size:15px;color:var(--text-color);}
 
-.TotalBalance {position:relative;overflow:hidden;background:var( --total-balance-bg);padding:30px 15px;text-align: center;border-radius: var(--radius);background-size:cover;  }
+.TotalBalance {margin-top:25px;position:relative;overflow:hidden;background:var( --total-balance-bg);padding:30px 15px;text-align: center;border-radius: var(--radius);background-size:cover;  }
 .TotalBalance * {margin: 0;padding:0;}
 .TotalBalance h6 {color: var( --total-balance-text);font-size: 15px;font-weight: normal;}
 .TotalBalance p {color:var( --total-balance-text);font-size: 40px; margin-top:20px;}
