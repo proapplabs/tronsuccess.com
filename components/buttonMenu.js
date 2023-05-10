@@ -118,7 +118,7 @@ export default function ButtonMenu({ page = "home" }) {
                                         <a className={b.class ? b.class : null}>
                                             <div>
                                                 {b.icon ? <img src={"/img/icon/button/" + b.icon + ".png"} /> : ""}
-                                                <span>{b.title}</span>
+                                                <span  >{b.title}</span>
                                             </div>
                                         </a>
                                     </Link>
@@ -138,6 +138,7 @@ export default function ButtonMenu({ page = "home" }) {
 .buttonMenu:after { clear: both; content: " "; display: block;}
 .buttonMenu .logout{width:100%;background-color:rgba(0 0 0 / 20%);border:solid 1px rgba(255 255 255 / 10%);}  
 .buttonMenu .password{width:162px;}
+.buttonMenu.mine a span{color:rgba(255 255 255 / 60%);}
 @media   (max-width:960px) {
     .buttonMenu {margin:0  ;}   
     .buttonMenu a {margin:0 0 10px 0;} 
