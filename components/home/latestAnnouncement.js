@@ -18,8 +18,8 @@ export default function LatestAnnouncement() {
 .LatestAnnouncement a img{margin-right:15px;}
 .LatestAnnouncement a span { color:white;font-size: 40px; font-weight: 400; background:linear-gradient(45deg,#ffdb92,#b18834); padding: 10px 20px 10px 15px; margin-right: 30px; border-radius: var(--radius) 100px 100px var(--radius); }
 .LatestAnnouncement a div { padding: 10px 0; }
-.LatestAnnouncement a div h6 { color: var(--text-color); font-size: 14px; font-weight: normal; margin-bottom: 5px; }
-.LatestAnnouncement a div p { font-size: 14px; }
+.LatestAnnouncement a div h6 { color: var(--white); font-size: 13px; font-weight: bold; margin-bottom: 5px; }
+.LatestAnnouncement a div p { color: var(--white);font-size: 13px; font-weight: bold; }
 .LatestAnnouncement a:after { transform:scale(0.6);content: " "; display: block; position: absolute; right: 20px; top: 0; bottom: 0; margin: auto; background-image: url(img/icon/arrow-right.png); background-size:contain;width: 12px; height: 24px; background-repeat: no-repeat; }
 @media (max-width:960px) {
   .LatestAnnouncement{margin: 15px 0;}
