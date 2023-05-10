@@ -20,12 +20,12 @@ export default function BalancesCard({ page = "profile" }) {
                     <div>
                         <p>{t("basic-income")}</p>
                         <h3 className='price'>
-                            {!data.account.user.balance ? (<>0.00 TRX / 0.00 TRX</>) : (<>{data.account.user.balance.basic.total} TRX  </>)}
+                            {!data.account.user.balance ? (<>0.00 TRX / 0.00 TRX</>) : (<>{data.account.user.balance.basic.total.toFixed(2)} TRX  </>)}
                         </h3>
                     </div>
                     <div>
                         <p>{t("promotion-income")}</p>
-                        <h3>{!data.account.user.balance ? (<>0.00 TRX </>) : (<> {data.account.user.balance.promotion.total} TRX</>)}</h3>
+                        <h3>{!data.account.user.balance ? (<>0.00 TRX </>) : (<> {data.account.user.balance.promotion.total.toFixed(2)} TRX</>)}</h3>
                     </div>
                 </section>
 
