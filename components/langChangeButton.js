@@ -51,7 +51,8 @@ export default function LangChangeButton() {
             section>div>div{max-height:70vh;overflowh:auto;background-color:#012342;color:var(--text-white);padding:10px;border-radius:var(--radius); position:relative; overflow:auto; }
             section>div>div .link{cursor:pointer;min-width:180px;border-radius:var(--radius);color:var(--white);display:block;text-align:center;padding:10px;background-color:#001e3a;margin-bottom:10px;font-size:12px;min-height:32px; } 
             section>div>div .link.active{color:var(--white); }
-            span{margin-left:15px;position:relative;}
+
+            span{margin-left:10px;position:relative;}
             span:hover section{display:block;}  
             span .langButton{border:solid 2px var(--text-color);border-radius:5px;display:inline-block;padding: 3px  4px;font-weight:bold;color:var(--text-color);margin-bottom:5px;position:relative;top:-6px;text-transform:uppercase;font-size:10px;box-sizing:border-box;}         
 @media (max-width:960px) {

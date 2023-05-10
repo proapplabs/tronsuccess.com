@@ -57,7 +57,8 @@ export default function NavigationTop() {
                             <div className="buttons">
                                 {data.login ? (
                                     <Link href="/notifications">
-                                        <a><img src="/img/icon/notification.png" alt="" /></a>
+                                        <a className="notify"><img src="/img/icon/notification.png" alt="" />
+                                            <i className="point" /></a>
                                     </Link>
                                 ) : ""}
                                 {data.telegram ? (
@@ -81,7 +82,9 @@ export default function NavigationTop() {
             .navigationTop .logo{display: inline-block;font-size:30px;font-weight: bold;height: 21px; }
             .navigationTop .buttons{float:right;display: inline-block;}
             .navigationTop .buttons img{height: 21px;}
-            .navigationTop .buttons>a{display: inline-block;margin-left: 15px;color:white ;}
+            .navigationTop .buttons .notify{position:relative;}
+            .navigationTop .buttons .notify i{background-color:#ff623b; width:6px;height:6px;position:absolute;top:0;right:-2px;}
+            .navigationTop .buttons>a{display: inline-block;margin-left: 10px;color:white ;}
             @media (max-width:960px) {
                 .navigationTop .logo{height: 20px;}
                 .navigationTop .phone{font-size:16px;line-height:21px;}
