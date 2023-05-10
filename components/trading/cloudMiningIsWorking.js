@@ -15,7 +15,7 @@ export default function CloudMiningIsWorking() {
         return (<>
             <section className="CloudMiningIsWorking animate__animated animate__fadeIn">
                 <div>
-                    <h6>+{data.miningRate}%</h6>
+                    <h6>+{data.miningRate.toFixed(2)}%</h6>
                     <p>{t("cloud-mining-is-working")}</p>
                 </div>
             </section>
