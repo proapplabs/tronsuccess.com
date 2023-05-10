@@ -32,6 +32,7 @@ export default function Transfer() {
             </section>
             <style jsx>{` 
             *{-webkit-tap-highlight-color:transparent !important;}
+            .transfer{margin:0 -10px;}
 @media (max-width:960px) {
  
 }
