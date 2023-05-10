@@ -14,9 +14,9 @@ export default function TradingCards() {
         .TradingCards { background-color: var(--bg-card-color); padding: 30px; text-align: center; border-radius: var(--radius); margin: 30px 0; }
 .TradingCards * { margin: 0; }
 .TradingCards h6 { color: var(--text-color); font-size: 20px; font-weight: normal; margin-bottom: 10px; }
-.TradingCards p { font-size: 16px;  }
+.TradingCards p { font-size: 14px; color:white; }
 .TradingCards img { width: 50%; }
-.TradingCards a{padding:10px 20px;display:inline-block;border-radius:var(--radius);color:var(--bg-color)}
+.TradingCards a{padding:7px  0px;display:inline-block;border-radius:100px;color:var(--bg-color);font-size:14px;width:101px;}
 @media (max-width:960px) {
   .TradingCards {padding: 15px;margin: 15px 0;}
   .TradingCards h6{font-size: 17px;}
