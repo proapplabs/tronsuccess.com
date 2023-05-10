@@ -144,9 +144,9 @@ export default function TradingProfit() {
 .tradingProfit ul li .body .text h6 span{font-size: 12px;color:var(--white);}
 .tradingProfit ul li .body .text p{font-size:9px;color: var(--white);opacity:0.6;margin-top:14px;}
 .tradingProfit ul li .body .btn-box{ width:87px !important;}
-.tradingProfit ul li .body .btn-gradient{ filter: none;border:none;font-weight:bold;font-size:13px;}
+.tradingProfit ul li .body .btn-gradient{ filter: none;border:none;font-weight:bold;font-size:9px;}
 .tradingProfit ul li .body .btn-gradient.active{filter:grayscale(1)}
-.tradingProfit ul li .body button{border-radius:100px;padding:5px  ;min-width:70px;font-size:12px !important;min-height:24px;}
+.tradingProfit ul li .body button{border-radius:100px;padding:5px  ;min-width:60px;font-size:9px ;min-height:24px;}
 .tradingProfit ul li.active a{opacity: 0.4;}
 .tradingProfit .info p{margin-bottom:15px;}
 @media (max-width:960px) {
