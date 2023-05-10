@@ -139,6 +139,7 @@ export default function ButtonMenu({ page = "home" }) {
 .buttonMenu .logout{width:100%;background-color:rgba(0 0 0 / 20%);border:solid 1px rgba(255 255 255 / 10%);}  
 .buttonMenu .password{width:162px;}
 .buttonMenu.mine a span{color:rgba(255 255 255 / 60%);}
+.buttonMenu.mine a{margin-bottom:10px;}
 @media   (max-width:960px) {
     .buttonMenu {margin:0  ;}   
     .buttonMenu a {margin:0 0 10px 0;} 
