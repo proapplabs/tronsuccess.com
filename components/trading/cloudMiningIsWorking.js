@@ -21,7 +21,7 @@ export default function CloudMiningIsWorking() {
             </section>
             <style jsx>{`
 .CloudMiningIsWorking {position:relative;overflow:Hidden;background-image:  var(--bg-card-color); padding: 30px 0px;text-align: left;border-radius: var(--radius);
-background-image:url(/img/bg/trading.png);background-size:100% !important;background-position:center;position:relative;
+background-image:url(/img/bg/trading.png);background-size:100% 100% !important;background-position:center;position:relative;
 display:block;justify-content:space-between ;align-items:center;
 }
 .CloudMiningIsWorking * {margin: 0;color: white;padding:0;}
