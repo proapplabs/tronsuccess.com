@@ -25,7 +25,7 @@ export default function Transfer() {
                         {/* <small>You can transfer a maximum of 17 TRX.</small> */}
                     </div>
                     <div>
-                        <input placeholder={t("enter-your-security-password")} type="password" min="0" name="password" autoComplete="new-password" style={{ borderColor: "rgba(255 255 255 / %)", marginBottom: 15 }} />
+                        <input placeholder={t("enter-your-security-password")} type="password" min="0" name="password" autoComplete="new-password" style={{ borderColor: "rgba(255 255 255 /20%)", marginBottom: 15 }} />
                     </div>
                 </Form>
                 {/* <p className="infoBox text-center">{t("the-transfer-process-takes-2-3-minutes")}</p> */}
