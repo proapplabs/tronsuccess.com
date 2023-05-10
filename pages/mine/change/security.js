@@ -16,13 +16,13 @@ export default function SecurityChange() {
             <Form link="/api/mine/password">
                 <input type="text" name="action" value="secret-password" hidden />
                 <div>
-                    <input type="password" name="oldPass" placeholder={t("old-security-password")} />
+                    <input type="password" name="oldPass" placeholder={t("old-security-password")} style={{ borderColor: "rgba(255 255 255 / 20%)" }} />
                 </div>
                 <div>
-                    <input type="password" name="newPass" placeholder={t("new-security-password")} />
+                    <input type="password" name="newPass" placeholder={t("new-security-password")} style={{ borderColor: "rgba(255 255 255 / 20%)" }} />
                 </div>
                 <div>
-                    <input type="password" name="newPassConfirm" placeholder={t("confirm-security-password")} />
+                    <input type="password" name="newPassConfirm" placeholder={t("confirm-security-password")} style={{ borderColor: "rgba(255 255 255 /20%)", marginBottom: 15 }} />
                 </div>
             </Form>
         </Layout>
