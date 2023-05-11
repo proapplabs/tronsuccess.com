@@ -103,7 +103,7 @@ export default function withdrawalForm() {
                     </h3>
                     <h4>{t("24-hour-settlement")}</h4>
                     <h1>{priceTrx(balance, false)}</h1>
-                    <p>{t("daily-withdrawal-limit")} : <span>{max.toFixed(2)}</span></p>
+                    <p>{t("daily-withdrawal-limit")} : <span>{Number(max).toFixed(2)}</span></p>
                 </section>
                 <form method="post" autoComplete="off" onSubmit={handleSubmit}>
                     <div>
